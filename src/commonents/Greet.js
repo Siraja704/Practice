@@ -1,19 +1,28 @@
 import react from "react";
 
-function Hello() {
-  return (
-    <div>
-      <h1>Hello Siraj Ahmed here</h1>
-    </div>
-  );
-}
-let Greet = (props) => {
-  console.log(props);
+//if you want to do like this
 
+// let Greet = ({ Name, College, children }) => {
+//   return (
+//     <div>
+//       <h1>
+//         Hello {Name} its working now He is from {College}
+//       </h1>
+//       {children}
+//     </div>
+//   );
+// };
+
+//this is the way to varaibe and then do it
+
+let Greet = (props) => {
+  const { Name, College, children } = props;
   return (
     <div>
-      <h1>Hello {props.Name} its working now </h1>
-      {props.children}
+      <h1>
+        Hello {Name} its working now He is from {College}
+      </h1>
+      {children}
     </div>
   );
 };

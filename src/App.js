@@ -5,20 +5,31 @@ import Welcome from "./commonents/Welcome";
 import Hello123 from "./commonents/hello";
 import Message from "./commonents/Message";
 import Counter from "./commonents/Counter";
+import Function from "./commonents/Function";
+import HooksF from "./commonents/HooksF";
+import Form from "./commonents/Form";
 
 function App() {
   return (
     <div className="App">
-      <div>working on the Different things</div>
+      <Form></Form>
+      {/* <HooksF /> */}
+      {/* <Function /> */}
+
+      {/* <div>working on the Different things</div>
       {/* <Message /> */}
 
-      <Counter />
+      {/* <Counter /> */}
 
-      {/* <Greet Name="Siraj">
+      {/* <Greet Name="Siraj" College="IBA">
         <p>This is Computer Science Student</p>
       </Greet>
 
-      <Greet Name="abc">
+      <Greet Name="bcd">
+        <button>Kill me </button>
+      </Greet> */}
+
+      {/* <Greet Name="abc">
         <button>Action </button>
       </Greet>
 
