@@ -4,11 +4,16 @@ import Greet from "./commonents/Greet";
 import Welcome from "./commonents/Welcome";
 import Hello123 from "./commonents/hello";
 import Message from "./commonents/Message";
+import Counter from "./commonents/Counter";
 
 function App() {
   return (
     <div className="App">
-      <Message />
+      <div>working on the Different things</div>
+      {/* <Message /> */}
+
+      <Counter />
+
       {/* <Greet Name="Siraj">
         <p>This is Computer Science Student</p>
       </Greet>
