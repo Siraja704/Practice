@@ -3,11 +3,13 @@ import "./App.css";
 import Greet from "./commonents/Greet";
 import Welcome from "./commonents/Welcome";
 import Hello123 from "./commonents/hello";
+import Message from "./commonents/Message";
 
 function App() {
   return (
     <div className="App">
-      <Greet Name="Siraj">
+      <Message />
+      {/* <Greet Name="Siraj">
         <p>This is Computer Science Student</p>
       </Greet>
 
@@ -25,7 +27,7 @@ function App() {
       <Welcome Name="dcs" />
       <Welcome Name="daa" />
 
-      {/* <Hello123 /> */}
+      <Hello123 /> */}
     </div>
   );
 }
