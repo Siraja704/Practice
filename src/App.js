@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Greet from "./commonents/Greet";
+import Myworld from "./commonents/Greet";
+import Welcome from "./commonents/Welcome";
 
 function App() {
   return (
     <div className="App">
-      <Greet></Greet>
+      <Myworld />
+      <Welcome />
     </div>
   );
 }
