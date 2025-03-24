@@ -7,6 +7,15 @@ function Hello() {
     </div>
   );
 }
-let Greet = () => <h1>Hello world its working now </h1>;
+let Greet = (props) => {
+  console.log(props);
 
-export default Hello;
+  return (
+    <div>
+      <h1>Hello {props.Name} its working now </h1>
+      {props.children}
+    </div>
+  );
+};
+
+export default Greet;
